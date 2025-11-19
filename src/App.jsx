@@ -44,7 +44,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-200">
+    <div className="min-h-screen bg-gray-200 overflow-y-auto">
       <Navbar favoritesCount={favorites.length} />
       <div className="p-4 max-w-6xl mx-auto mt-20">
         <Routes>
